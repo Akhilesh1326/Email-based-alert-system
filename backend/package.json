@@ -1,0 +1,24 @@
+{
+  "name": "email-alert-system-backend",
+  "version": "1.0.0",
+  "description": "Backend for the email-based alert system that scrapes job openings from Pune-based IT companies.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "axios": "^1.18.1",
+    "body-parser": "^2.3.0",
+    "cheerio": "^1.2.0",
+    "cors": "^2.8.6",
+    "express": "^4.22.2",
+    "node-cron": "^4.6.0",
+    "nodemailer": "^9.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
