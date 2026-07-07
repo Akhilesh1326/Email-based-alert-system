@@ -1,6 +1,6 @@
 import express from 'express';
 import { fetchCompanies, scrapeJobOpenings } from '../scraper/scraper.js';
-import { EmailService } from '../email/emailService';
+import EmailService from '../email/emailService.js';
 
 const router = express.Router();
 const emailService = new EmailService();
